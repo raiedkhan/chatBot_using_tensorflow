@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron{
+    margin-top: 10px;
+}
+.alert a{
+  font-weight: bold;
+  cursor: pointer;
+}
+.questions{
+  overflow-y: scroll;
+  height: 260px;
+}
+.questions::-webkit-scrollbar {
+  width: 7px;
+}
+
+.questions::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #943126;
+  border-radius: 10px;
+}
+
+.questions::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #E74C3C ;
+}
