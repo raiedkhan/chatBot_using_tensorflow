@@ -44,3 +44,4 @@ urllib3==1.25.7
 Werkzeug==0.16.0
 wrapt==1.11.2
 yarg==0.1.9
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
